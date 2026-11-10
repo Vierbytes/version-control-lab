@@ -1,6 +1,8 @@
 # Branching, Merging, and Handling Conflicts
 
-This repo is the website project for the Version Control branching lab. Each section was added as its own feature so the branches can be reviewed independently.
+This repo is the website project for the Version Control branching lab. It contains the navigation, hero, contact form, testimonials, and footer. The branch history demonstrates independent header and footer work and resolving their overlapping edit.
+
+GitHub repository: https://github.com/Vierbytes/version-control-lab (private)
 
 ## Features
 
@@ -14,4 +16,4 @@ This repo is the website project for the Version Control branching lab. Each sec
 
 The assignment asks for these feature branches: `feature/navigation-bar`, `feature/footer`, `feature/hero-section`, `feature/contact-form`, and `feature/testimonials`. The navigation and footer changes touch the same `index.html` file, so they are suitable for practicing a conflict and keeping both sections when resolving it. The remaining features can be merged one at a time after checking `git status`.
 
-The finished page is on `main`. A GitHub remote and hosted link still need to be added after GitHub access is restored.
+The GitHub remote is configured. The repo is private, so the instructor will need access to review it.
