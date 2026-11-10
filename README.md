@@ -14,6 +14,6 @@ GitHub repository: https://github.com/Vierbytes/version-control-lab (private)
 
 ## Branch workflow
 
-The assignment asks for these feature branches: `feature/navigation-bar`, `feature/footer`, `feature/hero-section`, `feature/contact-form`, and `feature/testimonials`. The navigation and footer changes touch the same `index.html` file, so they are suitable for practicing a conflict and keeping both sections when resolving it. The remaining features can be merged one at a time after checking `git status`.
+The website sections are grouped in `index.html`. The `feature/footer` and `feature/header` branches each changed the copyright line; the header branch also added the tagline. Merging both required a manual conflict resolution. `WORKFLOW.md` records the steps and commands used to inspect the branch history.
 
 The GitHub remote is configured. The repo is private, so the instructor will need access to review it.
